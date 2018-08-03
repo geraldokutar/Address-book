@@ -7,5 +7,9 @@ function Contact(first, last) {
 $(document).ready(function(){
   $("form#new-contact").submit(function(event){
     event.preventDefault();
+
+    var inputtedFirstName = $("input#new-first-name").val();
+    var inputtedLastName = $("input#new-last-name").val();
+
   })
 })
